@@ -4,6 +4,7 @@ use RedBeanPHP\Facade as RedBean;
 class Language extends DataStore {
     const TABLE = 'language';
     const LANGUAGES = [
+        'ind',
         'en',
         'es',
         'de',
